@@ -180,7 +180,7 @@ if LoadingScreen ~= false then
         wait(5)
         for i = 1, 100 do
             script.Parent.Text = i .. "%"
-            wait(2)
+            wait(0.1)
         end
     end
     coroutine.wrap(OVSBNB_fake_script)()
